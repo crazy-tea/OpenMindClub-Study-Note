@@ -1,2 +1,2 @@
-# Tea的Python 学习笔记
+# Tea's OMOOC2py Study-Note
 Study Note
