@@ -35,7 +35,9 @@ win系统
 
 
 当然学习最快的方法就是抄了，看看下面的图，哪里用，怎么用**一目了然**，
-左边是Markdown 右边是效果图：
+
+     左边是Markdown 右边是效果图：（这个效果我空了六行）
+
 
 ![alt](http://cdn.sspai.com/attachment/thumbnail/2014/04/15/4f47235736535ed5932b15bdef64263b10f73_mw_800_wm_1_wmp_3.jpg)
 
@@ -45,3 +47,5 @@ win系统
 
 - [《markdown入门指南》](http://www.jianshu.com/p/1e402922ee32/)
 - [《怎样引导新手使用 Markdown？》](http://www.zhihu.com/question/20409634)
+
+
