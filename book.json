@@ -1,8 +1,4 @@
 {
-    "plugins": ["disqus"],
-    "pluginsConfig": {
-        "disqus": {
-            "shortName": "crazy_tea"
-        }
-    }  
+    "plugins": [],
+    "pluginsConfig": {}
 }
