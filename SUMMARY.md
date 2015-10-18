@@ -12,5 +12,5 @@
 * [代码 (_src)](_src/readmemd.md)
 * [素材 (draft)](draft/readmemd.md)
    * [教程该怎么写](draft/how2tutorial.md)
-* [有关](ABOUT.md)
+* [有关](aboutmd.md)
 
