@@ -2,7 +2,7 @@
     "plugins": ["disqus"],
     "pluginsConfig": {
         "disqus": {
-            "shortName": "omooc2py-tea"
+            "shortName":"omooc2py-tea"
         }
     }  
 }
