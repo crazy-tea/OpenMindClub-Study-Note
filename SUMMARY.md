@@ -7,7 +7,7 @@
    * [github 产品解剖](0MOOC/githubchan_pin_jie_pou_md.md)
    * [python 小记](0MOOC/pythonxiao_ji_md.md)
 * [基础旋进](1sTry/readmemd.md)
-* [迭代作品](2nDev/README.md)
+* [迭代作品](2nDev/readmemd.md)
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
 * [素材 (draft)](draft/README.md)
