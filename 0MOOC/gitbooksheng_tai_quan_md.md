@@ -24,13 +24,36 @@
 
 两种方法
 
-- 直接用github账号登陆直接——点击create a new book——弹出的对话框第三个选项里就有github
+- 直接用github账号登陆直接——点击create a new book——弹出的对话框#第三个选项里就有github
 - 如果一开始独立注册的前提下
 [点击跳转教程](https://wastemobile.gitbooks.io/gitbook-chinese/content/github/transferring_to_github.html),如果右边栏的github里出现了你的github地址也就成功了。
 
 ##三、添加DISQUS评论模块
->这是最考究耐心的，注册了两个账号才添加成功，第一次出现了issue里提到的那个官方显示的一行字错误
+>这是最考究耐心的，注册了两个账号才添加成功，第一次出现了issue里提到的那个官方显示的一行字错误。第二次重新注册了个账号就可以了。
 
 ###装机方法
-gitbook中所有添加插件的方法都是更改 `book.json` 文件
+gitbook中所有添加插件的方法都是更改 `book.json` 文件，也就是在其中键入代码。下面是流程
 
+####1.注册DISQUS
+- 注册`disqus`
+- 点击右上角的设置中的`Add disqus to site`
+- 点击`Start Using ENgage`
+- 认真填写你的`Site name`待会会用到
+- 找到`Website URL`填写你的github地址
+
+####2.添加/修改 `book.json`
+- 首先看看你的gitbook中`files tree`区域中有没有`book.json`没有就新建一个
+- 常规的添加plugin流程：打开右上角`设置`旁边的`下拉箭头`——找到`Plugins`点击`find Plugins`——现在你到了gitbook的插件库里，找到`搜索栏`查找关键词`disqus`——[点击进去](https://plugins.gitbook.com/plugin/disqus)把看到的那行代码复制粘贴到刚刚新建的`book.json`中。
+      {
+          "plugins": ["disqus"],
+          "pluginsConfig": {
+              "disqus": {
+                  "shortName": "XXXXXXX"
+              }
+           }  
+       }
+- 把`shortName`后面的“XXXXXXX”替换成你刚刚在disqus写的`Site name`
+
+####3.检查
+- 点开gitbook里的`plugins`如果里面有`disqus`
+- 预览该gitbook看看是否出现了评论，如果没有出现插件还出现了一行字，那就得重新好好检查检查了。
