@@ -28,7 +28,15 @@
 - 如果一开始独立注册的前提下
 [点击跳转教程](https://wastemobile.gitbooks.io/gitbook-chinese/content/github/transferring_to_github.html),如果右边栏的github里出现了你的github地址也就成功了。
 
-##三、添加DISQUS评论模块
+##三、gitbook和github双推
+
+- 
+
+
+
+
+
+##四、添加DISQUS评论模块
 >这是最考究耐心的，注册了两个账号才添加成功，第一次出现了issue里提到的那个官方显示的一行字错误。第二次重新注册了个账号就可以了。
 
 ###装机方法
