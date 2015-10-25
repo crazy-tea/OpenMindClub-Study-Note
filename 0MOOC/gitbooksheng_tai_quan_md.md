@@ -36,6 +36,7 @@
 
 
 
+
 ##四、添加DISQUS评论模块
 >这是最考究耐心的，注册了两个账号才添加成功，第一次出现了issue里提到的那个官方显示的一行字错误。第二次重新注册了个账号就可以了。
 
@@ -60,7 +61,7 @@ gitbook中所有添加插件的方法都是更改 `book.json` 文件，也就是
               }
            }  
        }
-- 把`shortName`后面的“XXXXXXX”替换成你刚刚在disqus写的`Site name`
+- 把`shortName`后面的“XXXXXXX”替换成你刚刚在disqus写的`Site name `的下方网址名。
 
 ####3.检查
 - 点开gitbook里的`plugins`如果里面有`disqus`
